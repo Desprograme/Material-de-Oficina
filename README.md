@@ -9,12 +9,12 @@ Eu sou a Heloisa Biagi
 
 - Front-end Developer há 10 anos no mercado
 
- Contato
+ Contato:
  
-<Email> heloisa.biagi@gmail.com
-<LinkedIn> https://www.linkedin.com/in/heloisa-biagi-90a5721b
-<Site_pessoal> http://www.heloisabiagi.com
-<Slideshare> http://pt.slideshare.net/HeloisaBiagi
+- Email heloisa.biagi@gmail.com
+- LinkedIn https://www.linkedin.com/in/heloisa-biagi-90a5721b
+- Site_pessoal http://www.heloisabiagi.com
+- Slideshare http://pt.slideshare.net/HeloisaBiagi
 
 
 - Trabalhei em empresas como o jornal Valor Econômico e o Walmart.com e
