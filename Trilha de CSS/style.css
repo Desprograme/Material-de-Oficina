@@ -1,0 +1,151 @@
+html {
+	font-size: 18px;
+}
+
+body {
+	font-family: Arial, Verdana, sans-serif;
+}
+
+h1, h2, h3 {
+	font-family: 'Dosis', sans-serif;
+}
+
+header {
+	background-color: #0971B2;
+	background-color: rgba(9, 113, 178, 1);
+}
+
+header h1 {
+	font-size: 2.5rem;
+	color: #FFFF00;
+}
+
+nav .main-nav {
+	padding-left: 0;
+	margin: 0;
+}
+
+nav .main-nav li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+nav .main-nav li a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+nav .main-nav li a:hover {
+	text-decoration: underline;
+}
+
+.tit-promocao {
+	text-decoration: underline;
+}
+
+.tit-promocao.all-caps {
+	text-transform: uppercase;
+}
+
+.tit-promocao,
+aside h2 {
+	color: rgba(9, 113, 178, 1);
+}
+
+aside h2 {
+	border-bottom: solid 1px rgba(9, 113, 178, 1);
+}
+
+#tit-eletrodomesticos {
+	color: #6E09B2;
+}
+
+#tit-televisoes {
+	color: #FF7300;
+}
+
+#conteudo-promocoes article .desconto {
+	font-family: 'Dosis', sans-serif;
+	font-weight: 700;
+	background-color: #FFFF00;
+	color: #FF0000;
+	text-transform: uppercase;
+	display: inline;
+}
+
+#conteudo-promocoes img {
+	width: 100%;
+	max-width: 540px;
+	transition: all ease-in .2s;
+}
+
+#conteudo-promocoes img:hover {
+	opacity: 0.6;
+}
+
+main, footer, aside {
+	border: solid 1px rgba(9, 113, 178, 1);
+}
+
+#conteudo-promocoes article {
+	border: solid 1px #CCCCCC;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+#conteudo-promocoes article span {
+	display: block;
+}
+
+main, footer {
+	margin: 10px;
+}
+
+header, main, footer {
+	padding: 10px;
+}
+
+aside {
+	padding: 10px;
+	margin: 20px 0px 0px 0px; /* Top Right Bottom Left */
+	width: 25%;
+	box-sizing: border-box;
+	float: left;
+}
+
+#conteudo-promocoes {
+	width: 70%;
+	box-sizing: border-box;
+	float: right;
+}
+
+main:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+@media screen and (max-width: 600px) {
+	.main-nav {
+		display: none;
+	}
+
+	input[type="text"] {
+		width: 100%;
+	}
+
+	aside, #conteudo-promocoes {
+		float: none;
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 601px) {
+	.main-nav {
+		display: block;
+	}
+
+	nav select {
+		display: none;
+	}
+}
